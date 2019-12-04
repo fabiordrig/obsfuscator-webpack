@@ -9,7 +9,7 @@ module.exports = {
     },
     output: {
         path: 'dist',
-        filename: '[name].js'
+        filename: 'teste.js'
     },
     plugins: [
         new JavaScriptObfuscator({
